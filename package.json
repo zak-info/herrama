@@ -6,12 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "@clerk/nextjs": "^5.4.1",
+    "@nextui-org/react": "^2.4.6",
+    "framer-motion": "^11.3.30",
+    "react-chartjs-2": "^5.2.0",
+    "remixicon": "^4.3.0",
+    "svix": "^1.34.0",
+    "tailwind-merge": "^2.5.2"
   },
   "dependencies": {
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "@nextui-org/react": "^2.4.8",
+    "next": "14.2.7",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
     "postcss": "^8",
