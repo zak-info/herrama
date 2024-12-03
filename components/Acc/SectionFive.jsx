@@ -16,13 +16,13 @@ const SectionFive = () => {
         <div className='w-full min-h-screen bg-[#f8f4f0] flex flex-col items-center py-20'>
             <h1 className=' text-amber-400 text-3xl  font-bold underline underline-offset-8'>Produits</h1>
             <div className='w-full lg:px-32 flex flex-wrap items-center justify-center mt-12 gap-6 '>
-               <ProductCard img={p1} />
-               <ProductCard img={p2} />
-               <ProductCard img={p3} />
-               <ProductCard img={p4} />
-               <ProductCard img={p5} />
-               <ProductCard img={p6} />
-               <ProductCard img={p7} />
+               <ProductCard img={p1} title={"Witch Soap"} />
+               <ProductCard img={p2} title={"Baby Bons"} />
+               <ProductCard img={p3} title={"Baby Soap"} />
+               <ProductCard img={p4} title={"Royal Perfume"} />
+               <ProductCard img={p5} title={"Witch Perfume"} />
+               <ProductCard img={p6} title={"Royal Witch Soap"} />
+               <ProductCard img={p7} title={"Eau De Cologne"} />
 
             </div>
 

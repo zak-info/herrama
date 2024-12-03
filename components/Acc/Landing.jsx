@@ -16,9 +16,9 @@ const Landing = () => {
             <Header />
             <SectionOne />
             <SectionTow />
-            <SectionFour img={i1} title={" Une qualité irréprochable"} paragraphe={"Nos produits sont conçus avec une attention particulière aux détails, en utilisant des ingrédients hautement performants et respectueux de votre peau. Chaque formule est testée pour garantir des résultats visibles et durables. "} dir={"ltr"} x={-75} />
-            <SectionFour img={i2} title={"Une offre pour toute la famille"} paragraphe={"Que vous soyez un homme, une femme ou que vous cherchiez des soins doux pour vos bébés, Herrama Cosmetics propose des solutions adaptées à tous les âges et à tous les besoins. Nous croyons que chacun mérite des soins de qualité, quels que soient son style de vie ou ses préférences. "} dir={"rtl"} x={75} />
-            <SectionFour img={i3} title={"Une expertise à votre service"} paragraphe={"Grâce à notre expérience et à notre passion pour l’innovation, nous vous offrons des produits qui allient efficacité, élégance et naturalité. Rejoignez des milliers de clients satisfaits qui nous font déjà confiance."} dir={"ltr"} x={-75} />
+            <SectionFour img={i1} title={" Une qualité irréprochable"} paragraphe={"Nos produits sont conçus avec une attention particulière aux détails, en utilisant des ingrédients hautement performants et respectueux de votre peau. Chaque formule est testée pour garantir des résultats visibles et durables. "} dir={"ltr"} x={-75} bg={"bg-gradient-to-b from-green-500 to-green-400"} />
+            <SectionFour img={i2} title={"Une offre pour toute la famille"} paragraphe={"Que vous soyez un homme, une femme ou que vous cherchiez des soins doux pour vos bébés, Herrama Cosmetics propose des solutions adaptées à tous les âges et à tous les besoins. Nous croyons que chacun mérite des soins de qualité, quels que soient son style de vie ou ses préférences. "} dir={"rtl"} x={75} bg={"bg-gradient-to-b from-violet-400 to-violet-500"} />
+            <SectionFour img={i3} title={"Une expertise à votre service"} paragraphe={"Grâce à notre expérience et à notre passion pour l’innovation, nous vous offrons des produits qui allient efficacité, élégance et naturalité. Rejoignez des milliers de clients satisfaits qui nous font déjà confiance."} dir={"ltr"} x={-75} bg={"bg-gradient-to-b from-pink-400 to-pink-500"} />
             <SectionFive />
             <SectionSix />
             <Footer />

@@ -14,8 +14,8 @@ const Header = () => {
                 <li className="text-lg font-light">Contacts</li>
             </ul>
             <div className="flex items-center gap-4">
-                <a href="#" className="px-6 py-4 rounded-full bg-green-500 text-white text-lg"> Login</a>
-                <a href="#" className="hidden lg:block px-6 py-4 rounded-full bg-green-500 text-white text-lg"> Registrer</a>
+                <a href="/login" className="px-6 py-4 rounded-full bg-green-500 text-white text-lg"> Login</a>
+                <a href="/register" className="hidden lg:block px-6 py-4 rounded-full bg-green-500 text-white text-lg"> Registrer</a>
 
             </div>
 

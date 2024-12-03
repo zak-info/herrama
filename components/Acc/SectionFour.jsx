@@ -7,7 +7,7 @@ import { useEffect, useRef } from 'react'
 import { motion, useInView, useAnimation } from "framer-motion"
 
 
-const SectionFour = ({ img, title, paragraphe, dir, x }) => {
+const SectionFour = ({ img, title, paragraphe, dir, x,bg }) => {
     const ref = useRef(null);
     const isInView = useInView(ref);
     const mainControls = useAnimation();
@@ -33,19 +33,19 @@ const SectionFour = ({ img, title, paragraphe, dir, x }) => {
                             className='w-1/2 h-full'>
                             <Image src={img} placeholder='blur' width={1980} height={1080} className='w-full h-full object-cover' />
                         </motion.div>
-                        <div className={`w-1/2 h-full p-4 lg:p-20 `}>
-                            <h1 className='text-xl lg:text-3xl text-green-500 font-bold'>{title}</h1>
-                            <p className='text-sm lg:text-md text-gray-400'>{paragraphe} </p>
+                        <div className={`w-1/2 h-full p-4 lg:p-20 text-white ${bg}`}>
+                            <h1 className='text-xl lg:text-3xl  font-bold'>{title}</h1>
+                            <p className='text-sm lg:text-md '>{paragraphe} </p>
 
                         </div>
 
                     </div>
 
                     :
-                    <div className={`w-full h-[70vh] flex  `} ref={ref}>
+                    <div className={`w-full h-[70vh] flex text-white ${bg}  `} ref={ref}>
                         <div className={`w-1/2 h-full p-4 lg:p-20 `}>
-                            <h1 className='text-xl lg:text-3xl text-green-500 font-bold'>{title}</h1>
-                            <p className='text-sm lg:text-md text-gray-400'>{paragraphe} </p>
+                            <h1 className='text-xl lg:text-3xl  font-bold'>{title}</h1>
+                            <p className='text-sm lg:text-md '>{paragraphe} </p>
 
                         </div>
                         <motion.div

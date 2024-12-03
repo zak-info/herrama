@@ -16,10 +16,10 @@ const SectionOne = () => {
             mainControls.start("visible");
         }
     }, [isInView]);
-
+    // bg-fixed  bg-[url("/images/bg1.png")]
     return (
-        <div id="home" className='w-screen h-screen  bg-[url("/images/bg1.png")] bg-cover bg-no-repeat  flex md:justify-between  flex-col md:flex-row ' ref={ref}>
-        {/* <Image src={bg1} placeholder="blur" width={1980} height={1080} className="absolute -z-10 w-full h-full"  /> */}
+        <div id="home" className='w-screen h-screen  bg-cover bg-no-repeat  flex md:justify-between  flex-col md:flex-row ' ref={ref}>
+        <Image src={bg1} placeholder="blur" priority width={1980} height={1080} className="fixed -z-30 w-full h-full"  />
             <motion.div className="w-full h-full justify-center items-center flex flex-col lg:ms-8  px-4 md:pt-28  "   >
                 <div className=" w-4/5 lg:w-1/2 lg:min-h-60  bg-white/50 backdrop-blur-lg rounded-xl p-8 shadow-xl">
                     <p className="text-5xl">👋</p>
@@ -27,8 +27,8 @@ const SectionOne = () => {
                     <p className="md:text-xl mt-8  font-light text-[#87A922]">Explorez un monde de beauté naturelle et de soins adaptés à tous les besoins. Chez Herrama Cosmetics, nous croyons en des produits qui révèlent votre éclat intérieur tout en respectant l’environnement.</p>
                 </div>
                 <div className="w-full flex justify-center  mt-24 ">
-                    <Link href={"/wise/payment"} className="w-32 py-3 bg-[#436850] border border-[#436850] text-white text-xl hover:text-[#436850] hover:bg-[#edf2f8]  transition-all ease-in-out duration-150  rounded-full shadow-lg hover:shadow-none flex justify-center items-center " > Services</Link>
-                    <Link href={"#services"} className="w-32 py-3 ms-4 bg-[#436850] border border-[#436850] text-white text-xl hover:text-[#436850] hover:bg-[#edf2f8]  transition-all ease-in-out duration-150  rounded-full shadow-lg hover:shadow-none flex justify-center items-center " > Payments</Link>
+                    <Link href={"/login"} className="w-32 py-3 bg-[#436850] border border-[#436850] text-white text-xl hover:text-[#436850] hover:bg-[#edf2f8]  transition-all ease-in-out duration-150  rounded-full shadow-lg hover:shadow-none flex justify-center items-center " > Services</Link>
+                    <Link href={"/register"} className="w-32 py-3 ms-4 bg-[#436850] border border-[#436850] text-white text-xl hover:text-[#436850] hover:bg-[#edf2f8]  transition-all ease-in-out duration-150  rounded-full shadow-lg hover:shadow-none flex justify-center items-center " > Payments</Link>
 
                 </div>
             </motion.div>
