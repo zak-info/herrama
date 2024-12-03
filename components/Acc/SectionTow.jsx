@@ -1,6 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 
+import p1 from "@/public/images/cl1.jpg"
+import p2 from "@/public/images/d2.jpeg"
+import p3 from "@/public/images/p4.jpg"
+import p4 from "@/public/images/s1.jpg"
+
+
 const SectionTow = () => {
     return (
         <div id="home" className='w-screen h-screen bg-white  flex md:justify-between p-8  md:ps-40 md:pt-40  flex-col md:flex-row ' >
@@ -16,14 +22,17 @@ const SectionTow = () => {
                         </div>
                     </div>
                     <div className='flex gap-6  h-24   '>
-                        <span className='w-16 h-16 bg-green-100 rounded-full flex justify-center items-center text-green-500 text-2xl font-bold'>2</span>
+                        {/* <span className='w-16 h-16 bg-green-100 rounded-full flex justify-center items-center text-green-500 text-2xl font-bold'>2</span> */}
+                        <Image src={p1} placeholder='blur' width={500} height={500} className='w-16 h-16 object-fill rounded-full' />
                         <div className='h-full flex flex-col gap-4'>
                             <h1 className='text md lg:text-xl font-bold'>Colonei</h1>
                             <p className='text-xs lg:text-md text-neutral-500'>Soins de luxe exclusifs.</p>
                         </div>
                     </div>
                     <div className='flex gap-6  h-24   '>
-                        <span className='w-16 h-16 bg-green-100 rounded-full flex justify-center items-center text-green-500 text-2xl font-bold'>3</span>
+                        {/* <span className='w-16 h-16 bg-green-100 rounded-full flex justify-center items-center text-green-500 text-2xl font-bold'>3</span> */}
+                        <Image src={p3} placeholder='blur' width={500} height={500} className='w-16 h-16 object-fill rounded-full' />
+
                         <div className='h-full flex flex-col gap-4'>
                             <h1 className='text md lg:text-xl font-bold'>Parfums</h1>
                             <p className='text-xs lg:text-md text-neutral-500'>Fragrances élégantes et uniques.</p>
@@ -37,14 +46,16 @@ const SectionTow = () => {
                         </div>
                     </div>
                     <div className='flex gap-6  h-24   '>
-                        <span className='w-16 h-16 bg-green-100 rounded-full flex justify-center items-center text-green-500 text-2xl font-bold'>5</span>
+                        {/* <span className='w-16 h-16 bg-green-100 rounded-full flex justify-center items-center text-green-500 text-2xl font-bold'>5</span> */}
+                            <Image src={p2} placeholder='blur' width={500} height={500} className='w-16 h-16 object-fill rounded-full' />
                         <div className='h-full flex flex-col gap-4'>
                             <h1 className='text md lg:text-xl font-bold'>Soins du corps</h1>
                             <p className='text-xs lg:text-md text-neutral-500'>Gommages et hydratants.</p>
                         </div>
                     </div>
                     <div className='flex gap-6  h-24   '>
-                        <span className='w-16 h-16 bg-green-100 rounded-full flex justify-center items-center text-green-500 text-2xl font-bold'>6</span>
+                        {/* <span className='w-16 h-16 bg-green-100 rounded-full flex justify-center items-center text-green-500 text-2xl font-bold'>6</span> */}
+                        <Image src={p4} placeholder='blur' width={500} height={500} className='w-16 h-16 object-fill rounded-full' />
                         <div className='h-full flex flex-col gap-4'>
                             <h1 className='text md lg:text-xl font-bold'>Savons</h1>
                             <p className='text-xs lg:text-md text-neutral-500'>Naturels et doux pour la peau.</p>

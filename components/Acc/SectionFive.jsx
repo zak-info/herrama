@@ -12,6 +12,8 @@ import p6 from "@/public/images/cb1.jpg"
 import p7 from "@/public/images/c1.jpg"
 import p8 from "@/public/images/d1.jpeg"
 import p9 from "@/public/images/p5.jpg"
+import p10 from "@/public/images/rs1.jpeg"
+import p11 from "@/public/images/m1.jpg"
 
 const SectionFive = () => {
     return (
@@ -21,12 +23,14 @@ const SectionFive = () => {
                <ProductCard qte={48} imgs={[p1,"/images/s2.jpg","/images/s3.jpg"]} title={"Witch Savon 90g"} />
                <ProductCard qte={72} imgs={[p2,"/images/w2.jpg","/images/w3.jpg","/images/w4.jpg","/images/w5.jpg","/images/w6.jpg"]}  title={"Witch Savon 60g"} />
                <ProductCard qte={48} imgs={[p3,"/images/wb2.jpg","/images/wb3.jpg"]} title={"Witch savon 125g"} />
+               <ProductCard qte={60} imgs={[p11,"/images/m2.jpg"]} title={"Savon Mars"} />
                <ProductCard qte={48} imgs={[p4,"/images/b2.jpg","/images/b3.jpg","/images/b4.jpg"]} title={"Savon Baby Witch"} />
                <ProductCard qte={12} imgs={[p5,"/images/cl2.jpg","/images/cl3.jpg","/images/cl4.jpg","/images/cl5.jpg"]} title={"EAU DE COLOGNE WITCH FRAICHEUR 250 ML"} />
                <ProductCard qte={96} imgs={[p6,"/images/cb2.jpg","/images/cb3.jpg"]} title={"Eau De Toilette Baby Bones 50 ML"} />
                <ProductCard qte={32} imgs={[p9,"/images/p4.jpg"]} title={"EAU DE PARFUM HELLOTRIAMPHE 100 ML"} />
                <ProductCard qte={96} imgs={[p7,"/images/c2.jpg","/images/c3.jpg","/images/c4.jpg","/images/c5.jpg","/images/c6.jpg","/images/c7.jpg","/images/c8.jpg","/images/c9.jpg","/images/c10.jpg"]} title={"EAU DE TOILETTE GANJACOS 50 ML HOMME / FEMME"} />
-               <ProductCard qte={"XX"} imgs={[p8,"/images/d2.jpeg","/images/perfume.jpg","/images/m1.jpg","/images/m2.jpg"]} title={"Diversité"} />
+               <ProductCard qte={"XX"} imgs={[p8,"/images/brs2.jpeg"]} title={"Brosse a dent"} />
+               <ProductCard qte={"05"} imgs={[p10,"/images/d2.jpeg","/images/perfume.jpg","/images/m1.jpg","/images/m2.jpg"]} title={"RASOIR JETABLE DARCOM 5 PCS"} />
             </div>
 
 

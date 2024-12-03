@@ -1,6 +1,6 @@
 
 import Image from 'next/image';
-import beauro from "@/public/images/beauro.jpg"
+import beauro from "@/public/images/br1.jpg"
 const QueSomNo2 = () => {
     return (
         <div className='w-full lg:h-[478px] bg-white flex flex-col lg:flex-row items-center md:px-[177px]  md:py-[75px] gap-6 '>

@@ -13,13 +13,15 @@ import Footer from './Footer'
 import QueSomNo from './QueSomNo'
 import QueSomNo2 from './QueSomNo2'
 import Partners from './Partners'
+import Services from './Services'
 const Landing = () => {
     return (
         <div className='w-screen min-h-screen hide-scrollbar overflow-x-hidden overflow-y-scroll'>
             <Header />
             <SectionOne />
-            <QueSomNo2 />
             <QueSomNo />
+            <QueSomNo2 />
+            <Services />
             <Partners />
             <SectionTow />
             <SectionFive />
