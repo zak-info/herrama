@@ -3,7 +3,7 @@ import Image from 'next/image'
 import AreasSlider from './AreasSlider'
 
 
-const ProductCard = ({ imgs, title }) => {
+const ProductCard = ({ imgs, title,qte }) => {
     return (
         <div className=' w-full  p-6 bg-white  rounded-lg flex flex-col lg:flex-row gap-4 items-center shadow-[0_20px_25px_-5px_rgba(0,131,224,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)] '>
             <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow darkk:bg-gray-800 darkk:border-gray-700">
@@ -35,7 +35,7 @@ const ProductCard = ({ imgs, title }) => {
                         <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded darkk:bg-red-200 darkk:text-red-800 ms-3">5.0</span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <span class="text-3xl font-bold text-gray-900 darkk:text-white">XXX</span>
+                        <span class="text-3xl font-bold text-gray-900 darkk:text-white">{qte}/Carton</span>
                         <a href="#" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center darkk:bg-red-600 darkk:hover:bg-red-700 darkk:focus:ring-red-800">So Soon</a>
                     </div>
                 </div>
