@@ -56,7 +56,7 @@ const Footer = () => {
                 </div>
                 <div className="py-7 border-t border-gray-200">
                     <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
-                        <span className="text-sm text-gray-500 ">©<a href="https://pagedone.io/">chanane</a> 2024, All rights reserved.</span>
+                        <span className="text-sm text-gray-500 ">©<a href="https://pagedone.io/">zak-info</a> 2024, All rights reserved.</span>
                         <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
                             <a href="javascript:;" className="w-9 h-9 rounded-full bg-secondry-1 flex justify-center items-center bg-primary-1-hover text-primary-1 hover:text-red-400   transition-all ease-in-out duration-150">
                                 {/* <svg xmlns="http://www.w3.org/2000/svg" className='text-primary-1' width="20" height="20" viewBox="0 0 20 20" fill="none">
