@@ -12,14 +12,11 @@ const Footer = () => {
                             <Image src={"/logo.png"} width={100} height={100} className='w-20 h-20 rounded-full ' />
                             <span className='text-red-600'>Herrama</span>
                         </div>
-                        <p className="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">+213 550 979 130 / +213 796 058 948</p>
-                        <p className="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">+213 550 979 130 / +213 796 058 948</p>
-                        <p className="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left mt-4">gouraya334@gmail.com</p>
-                        <p className="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left mt-4">Ben Danoun Lot N° 109</p>
-                        <p className="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">Khemis El Khechna-Boumerdes</p>
-                        <p className="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">Trusted in more than many states & more then 100 univercities. Have any query ?</p>
-                        <p className="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">Trusted in more than many states & more then 100 univercities. Have any query ?</p>
-                        <a href="#" className="py-2.5 px-5 h-9 block w-fit bg-white  transition-all ease-in-out duration-150 rounded-full shadow-sm text-xs text-red-400  mx-auto  hover:bg-white text-primary-1-hover border border-red-400 lg:mx-0">
+                        <p className="pt-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">+213 550 979 130 / +213 796 058 948</p>
+                        <p className=" text-sm text-gray-500 lg:max-w-xs text-center lg:text-left mt-4">gouraya334@gmail.com</p>
+                        <p className=" text-sm text-gray-500 lg:max-w-xs text-center lg:text-left mt-4">Ben Danoun Lot N° 109</p>
+                        <p className=" text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">Khemis El Khechna-Boumerdes</p>
+                        <a href="#" className="py-2.5 px-5 h-9 block w-fit mt-6 bg-white  transition-all ease-in-out duration-150 rounded-full shadow-sm text-xs text-red-400  mx-auto  hover:bg-white text-primary-1-hover border border-red-400 lg:mx-0">
                             Contact us
                         </a>
                     </div>
