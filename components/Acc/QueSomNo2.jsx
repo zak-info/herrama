@@ -12,7 +12,7 @@ const QueSomNo2 = () => {
                 className="w-[340px] h-[212px] md:w-[586px] md:h-[328px] object-cover rounded-lg order-2 lg:order-1 mt-8 lg:mt-0"
                 width={1980} />
 
-            <div className='order-1 lg:order-2 flex flex-col items-center lg:items-start'>
+            <div className='order-1 lg:order-2 flex flex-col items-center lg:items-start mt-8 lg:mt-0'>
                 {/* <h1 className='text-[31px] md:text-[40px] text-primary-1 font-bold text-center lg:text-start  '>Qui somme nous ?</h1>
                 <p className='w-3/4 lg:w-full text-[16px] md:text-[20px] mt-[28px] text-neutral-500 text-center lg:text-start font-inter font-light leading-[32px]' >Alrraid vous propose une large gamme de service en architecture <span className='hidden lg:block'> genie cevile et conception d’immobilier.</span></p> */}
                 <h1 className='text-xl lg:text-4xl font-light text-neutral-700 '><span className='font-bold text-3xl lg:text-6xl text-green-500'>Herrama?</span>  Qui sommes-nous ?</h1>
