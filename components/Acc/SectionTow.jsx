@@ -5,8 +5,8 @@ const SectionTow = () => {
     return (
         <div id="home" className='w-screen h-screen bg-white  flex md:justify-between p-8  md:ps-40 md:pt-40  flex-col md:flex-row ' >
             <div className='w-full lg:w-3/5'>
-                <h1 className='text-xl lg:text-4xl font-light text-neutral-700 '><span className='font-bold text-3xl lg:text-6xl text-green-500'>Herrama?</span>  Qui sommes-nous ?</h1>
-                <p className='text-sm lg:text-md text-neutral-500 mt-6'>Herrama Cosmetics est une marque dédiée à la création de produits cosmétiques de haute qualité, inspirés par la nature et conçus avec soin pour répondre à vos attentes. Nos formules uniques allient ingrédients naturels et expertise scientifique pour offrir des solutions efficaces et sûres.</p>
+                <h1 className='text-xl lg:text-4xl font-light text-neutral-700 '><span className='font-bold text-3xl lg:text-6xl text-green-500'>Nos Produits</span> , Votre Éclat</h1>
+                <p className='text-sm lg:text-md text-neutral-500 mt-6'>Chez Herrama Cosmetics, chaque produit est une promesse de qualité et d’efficacité, élaboré à partir d’ingrédients soigneusement sélectionnés. Nous nous engageons à vous offrir des solutions qui allient innovation, bien-être et respect de la nature.</p>
                 <div className='w-full grid grid-cols-2 gap-y-6  mt-16'>
                     <div className='flex gap-6  h-24   '>
                         <span className='w-16 h-16 bg-green-100 rounded-full flex justify-center items-center text-green-500 text-2xl font-bold'>1</span>
