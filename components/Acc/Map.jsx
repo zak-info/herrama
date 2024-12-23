@@ -1,12 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
+import map from "@/public/images/map.png"
 const Map = () => {
     return (
         <div className='flex flex-col bg-white items-center py-16'>
             <h1 className='text-2xl md:text-4xl text-primary-1 font-bold mt-0'>Trouver Nous</h1>
             <p className=' hidden lg:block w-5/6 text-md z-10  text-center text-neutral-600 font-light mt-4'>Nous mettons à votre disposition divers moyens pour que vous puissiez facilement nous contacter via notre site web ou nos réseaux sociaux</p>
             <div className='w-full -translate-y-16 md:-translate-y-0 px-24 md:mt-16 flex flex-col lg:flex-row  items-center justify-center'>
-                <Image src={"/images/map.png"} width={900} height={500} className=' order-2  w-[900px] h-[500px]  mt-20 rounded-md' />
+                <Image src={map} placeholder='blur' width={900} height={500} className=' order-2  w-[900px] h-[500px]  mt-20 rounded-md' />
                 <div className='  w-2/3 lg:w-full z-40 p-6  lg:p-12 order-1 lg:order-2 bg-white   lg:-translate-x-20 md:flex flex-col gap-6 border rounded-lg shadow-[0_7px_29px_0_rgba(100,100,111,0.2)]'>
                     <h1 className=' text-base text-center lg:text-start lg:text-lg text-neutral-600 font-semibold'>FIND OUR HEADQURTERS</h1>
                     <p className=' text-lg lg:text-xl whitespace-pre-wrap font-light '>Nous sommes heureux de vous recevoir dans notre siège situé à
